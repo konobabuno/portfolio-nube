@@ -5,4 +5,52 @@
 
 body{
   margin: 0;
+  @include body-text;
+}
+
+header{
+  position: fixed;
+
+  nav{
+    font-size: 20px;
+  }
+
+  a.button-contact{
+    text-decoration: none;
+    color: $dark;
+    font-size: 12px;
+    border: 1px solid $dark;
+    padding: 2px 25px;
+    border-radius: 20px;
+    transition: all ease 0.3s;
+
+    &:hover{
+      color: $white;
+      background-color: $dark;
+    }
+  }
+}
+
+main{
+
+  .hero-dev{
+    h1{
+      span{
+        color: $blue;
+      }
+    }
+
+    img{
+      width: 100%;
+    }
+
+    .img-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
 }

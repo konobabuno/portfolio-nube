@@ -24101,19 +24101,65 @@ textarea.form-control-lg {
 
 h1, .h1, .h1 {
   font-family: 'Manrope', sans-serif;
-  font-size: 80px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 100%; }
   @media (min-width: 992px) {
     h1, .h1, .h1 {
-      font-size: 100px; } }
+      font-size: 80px; } }
+
+h2, .h2, .h2 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; }
+  @media (min-width: 992px) {
+    h2, .h2, .h2 {
+      font-size: 50px; } }
 
 * {
   margin-block: 0;
   margin: 0; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Manrope';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 23.4px */
+  letter-spacing: 0.54px; }
+  @media (min-width: 992px) {
+    body {
+      font-size: 22px; } }
+
+header {
+  position: fixed; }
+  header nav {
+    font-size: 20px; }
+  header a.button-contact {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    border: 1px solid #000000;
+    padding: 2px 25px;
+    border-radius: 20px;
+    transition: all ease 0.3s; }
+    header a.button-contact:hover {
+      color: #FFF;
+      background-color: #000000; }
+
+main .hero-dev h1 span, main .hero-dev .h1 span {
+  color: #1355FF; }
+main .hero-dev img {
+  width: 100%; }
+main .hero-dev .img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
